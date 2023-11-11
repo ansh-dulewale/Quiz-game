@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+  <header>
+    <div id="logo">
+        <img src="quiz-game-logo.jpg" alt="Quiz Game Logo">
+    </div>
+    <nav id="nav-container">
+        <ul>
+            <li>About Me</li>
+            <li>Contact Me</li>
+        </ul>
+    </nav>
+  </header>  
+   <main id="main-container">
+    <div id="einstien-image">
+        <img src="einsteiam.jpg" alt="">
+    </div>
+    <div id="quiz-container-div">
+    <section id="Quiz-container">
+        <div id="information">
+            <h3>Hey!! Visitor, do you have the potential to crack this quiz?</h3>
+            <div id="terms-condition">
+                <p><strong>Terms and Conditions:</strong></p>
+                <!-- Add your terms and conditions here -->
+                <input type="checkbox" id="checkbox"> I agree to the terms and conditions
+            </div>
+            <button id="submit" disabled>Start Quiz</button>
+        </div>
+        <div id="showquiz" style="display: none;">
+            <h5 id="question" name="Quiz-game">Question will be shown here</h5>
+            <input type="radio" id="option1" name="Quiz-game"> <span id="label1">option 1</span><br>
+            <input type="radio" id="option2" name="Quiz-game"> <span id="label2">option 2</span><br>
+            <input type="radio" id="option3" name="Quiz-game"> <span id="label3">option 3</span><br>
+            <input type="radio" id="option4" name="Quiz-game"> <span id="label4">option 4</span>
+            <div>
+                <button onclick="NextQuiz()" id="Next">Next</button>
+            </div>
+        </div>
+        <div id="result"><span></span></div>
+    </section>
+    </div>
+   </main>
+   <div id="form-container">
+	<h2 class="text-primary" style=
+		"margin-left: 15px; margin-bottom: 10px">
+		Hey There,Help Us In Collecting Data
+	</h2>
+	
+	<form class="container" id="contactForm">
+		<div class="card">
+			<div class="card-body">
+				<div class="form-group">
+					<label for="exampleFormControlInput1">
+						Enter Your Name
+					</label>
+					
+					<input type="text" class="form-control"
+					id="name" placeholder="Enter your name">
+				</div>
+
+				<div class="form-group">
+					<label for="exampleFormControlInput1">
+						Email address
+					</label>
+					
+					<input type="email" class="form-control"
+					id="email" placeholder="name@example.com">
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary"
+				style="margin-left: 15px; margin-top: 10px">
+				Submit
+			</button>
+		</div>
+	</form>
+    </div>
+<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+<script src="app.js"></script>
+</html>
