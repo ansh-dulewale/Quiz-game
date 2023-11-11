@@ -1,4 +1,5 @@
 # Quiz Game
+
 Welcome to the Quiz Game repository! This project is a simple web-based quiz game that challenges users with a set of questions. Whether you're a quiz enthusiast or a developer looking to implement a fun quiz application, this project can serve as a starting point.
 
 ## Table of Contents
@@ -8,12 +9,11 @@ Welcome to the Quiz Game repository! This project is a simple web-based quiz gam
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
-
+- [License](#license)
 
 ## Introduction
 
 The Quiz Game is a web application built using HTML, CSS, and JavaScript. It presents users with a set of questions and evaluates their responses. The quiz is interactive and engaging, with a visually appealing interface.
-
 
 ## Features
 
@@ -25,14 +25,12 @@ The Quiz Game is a web application built using HTML, CSS, and JavaScript. It pre
 
 - Firebase Integration: The project integrates Firebase for data storage and retrieval.
 
-
 ## Getting Started
 
 To get started with the Quiz Game, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/quiz-game.git`
 2. Open the `index.html` file in your preferred web browser.
-
 
 ## Usage
 
@@ -42,7 +40,6 @@ To get started with the Quiz Game, follow these steps:
 4. Once the quiz begins, questions are presented one at a time with multiple-choice options.
 5. Users can select an option and proceed to the next question.
 6. After completing the quiz, users receive their results.
-
 
 ## Contributing
 
@@ -54,5 +51,8 @@ Contributions to the Quiz Game project are welcome! If you have ideas for improv
 4. Push to the branch: `git push origin feature/new-feature`
 5. Open a pull request.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code for your own projects.
 
 Happy quizzing! 🎉
